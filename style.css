@@ -5,17 +5,19 @@
 }
 .grid-item {
   background-color:transparent;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   padding: 10px;
   font-size: 10px;
   /* font-family: 'IBM Plex Mono', monospace; */
   font-family: 'Times New Roman', Times, serif;
-  border-color: black;
+  color: rgb(63, 59, 40);
+  border-color: white;
   border-width: 0.5pt;
+
 }
 
 body{
-  background-color:rgb(255, 255, 255);
+  background-color:whitesmoke;
 }
 * {
   box-sizing: border-box;
@@ -109,6 +111,24 @@ a:hover {
         padding: 10px;
       }
     img{
-      width: 70%;
-      margin: 0;
+      width: 75%;
+     
     }
+.bodytextformatting{
+  font-size: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 10px;
+}
+.heading{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+  font-weight: bold;
+  margin-left: 30px; 
+  color: rgb(63, 59, 40);
+}
+.headinglight{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+  font-weight: lighter;
+  color: rgb(63, 59, 40);
+}
