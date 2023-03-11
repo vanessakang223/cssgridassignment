@@ -1,7 +1,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 10px;
+  padding: 3px;
 }
 .grid-item {
   background-color:transparent;
@@ -21,6 +21,7 @@
   justify-content: space-between;
   width:100%;
   position: fixed;
+
 }
 p{
   margin: 3px;
@@ -28,51 +29,6 @@ p{
 
 body{
   background-color:whitesmoke;
-}
-* {
-  box-sizing: border-box;
-}
-
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 30%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.textalign{
-  text-align: justify;
-}
-.line1
-{
-  /* If I want the text to be on the top right hand side/* align: right; */
-  /* position: absolute;
-  right:0px;
-  top:0px; */
-  line-height: 190%;
-  text-decoration: none;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  padding: 20px;
-  font-size: 14px;
-}
-
-ul{
-  padding-left: 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 a:link {
@@ -94,13 +50,6 @@ a:hover {
 
   .colorchange:hover {
     background-color: rgb(195, 194, 203);
-    }
-
-  
-    ul{
-      padding-left: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 14px;
     }
       
     nav a{
@@ -150,7 +99,8 @@ a:hover {
 .top-row{
   margin-top: vh;
 }
-
-@media screen and (min-width: 400px) {
- img width: 20vh;
+@media (max-width: 768px) {
+ .heading{
+  font-size: 3rem;
+}
 }
